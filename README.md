@@ -72,7 +72,7 @@ npx hardhat --version
    - **RPC URL:** `http://localhost:8545`
    - **Chain ID:** `31337`
    - **Currency Symbol:** ETH
-3. Note: If you are not yet logged-in your Metamask, Log-in first then refresh the browser. 
+3. Note: If you are not yet logged-in your Metamask when you click "Mint NFT", Log-in first then refresh the browser. 
 
 ## Troubleshooting
 
