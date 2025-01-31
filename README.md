@@ -27,7 +27,7 @@ npx hardhat --version
 1. Clone the repository:
    ```bash
    git clone https://github.com/paenuth/nft-erc20-dapp.git
-   cd mft-erc20-dapp
+   cd nft-erc20-dapp
    ```
 2. Install dependencies:
    ```bash
