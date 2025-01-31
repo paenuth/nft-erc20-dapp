@@ -1,26 +1,17 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-  },
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-  ],
-  parserOptions: {
-    ecmaFeatures: {
-      jsx: true,
-    },
-    ecmaVersion: 12,
-    sourceType: 'module',
-  },
-  plugins: [
-    'react',
+    "react-app",
+    "react-app/jest"
   ],
   rules: {
-    // Your custom rules
+    // Allow JSX without explicit React import (for React 17+)
+    "react/react-in-jsx-scope": "off",
+    // Fix BigInt warnings
+    "no-undef": "off"
   },
-  globals: {
-    BigInt: 'readonly',
-  },
+  env: {
+    // Enable ES2020/BigInt features
+    es2020: true,
+    browser: true
+  }
 };
