@@ -57,6 +57,7 @@ npx hardhat --version
 1. Open a new terminal window and navigate to the frontend directory:
    ```bash
    cd frontend
+   npm install react react-dom react-scripts
    npm start
    ```
 2. Open `http://localhost:3000` in your browser.
